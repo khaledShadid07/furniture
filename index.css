@@ -5,6 +5,8 @@
 --white:#EFF2F1;
 ;
 }
+.draw-paper{overflow-x: hidden;}
+
 *{font-family: roboto;margin: 0px;padding: 0px;box-sizing: 0px;}
 h1{font-family: poppins;}
 p{font-family: roboto;}
@@ -22,9 +24,18 @@ div a:hover{text-decoration: underline var(--yellow) ;}
 
 .pic-header{display: flex;align-items: center;justify-content: space-between;}
 
-
 .hero-img1{width: 40rem;}
 .hero-h1{color:var(--white);font-size: 40px;line-height: 80px;margin-top: 50px;}
+
+
+/* article1 */
+
+.article1-img{width: 200px;text-align: center;}
+
+.article1{width: 100vw;text-align: center;}
+.article1-p2{text-align: center;}
+.article1-h11{text-align: center;}
+.article1-p{text-align: center;}
 @media screen and (width<1110px) {
  
   .hero-img1{width: 30rem;}
@@ -36,4 +47,11 @@ div a:hover{text-decoration: underline var(--yellow) ;}
   .hero-img1{width: 12rem;}
   .hero-h1{color:var(--white);font-size: 16px;line-height: 30px;margin-top: 20px;}
  .a-tag{font-size: 11px;}
+ .article1-p{font-size: 12px;width: 120px;}
+ .article1-h1{font-size: 16px;}
+ 
+ .article1-p2{text-align: center;font-size: 12px;}
+ .article1-container{display: flex;flex-direction: column;align-items: center;}
+ .card-css{flex-grow: 1;}
+ 
 }
