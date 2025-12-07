@@ -11,7 +11,7 @@ p{font-family: roboto;}
 a{text-decoration: none;font-family: roboto;color: var(--white);}
 
 /* header */
-header{display: flex;flex-direction: column;width: 100vw;background-color: var(--green);}
+header{display: flex;flex-direction: column;width: 100vw;height: 100vh;background-color: var(--green);}
 nav{display: flex;align-items: center;justify-content: space-between;padding: 10px;flex-wrap: wrap;}
 
 div a {text-decoration: none;font-family: roboto;color: var(--white);font-weight: 400;}
