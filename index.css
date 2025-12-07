@@ -33,7 +33,7 @@ div a:hover{text-decoration: underline var(--yellow) ;}
 }
 @media screen and (width<850px) {
  
-  .hero-img1{width: 14rem;}
+  .hero-img1{width: 12rem;}
   .hero-h1{color:var(--white);font-size: 16px;line-height: 30px;margin-top: 20px;}
- .a-tag{font-size: 14px;}
+ .a-tag{font-size: 11px;}
 }
