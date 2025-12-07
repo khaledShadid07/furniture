@@ -22,16 +22,18 @@ div a:hover{text-decoration: underline var(--yellow) ;}
 
 .pic-header{display: flex;align-items: center;justify-content: space-between;}
 
-.hero-div{display: flex;width: 100vw;align-items:center;}
-.hero-div-1{display: flex;display: flex;flex-direction: column;padding-left: 8em;flex-wrap: wrap;}
-.hero-div-2{display: flex;align-items: center;}
-.hero-div-1-h1{color:var(--white);font-size: 35px;}
-.hero-img1{width: 600px;}
 
-@media screen and (width<900px) {
-  .hero-div-2{}
- .hero-img1{width: 200px;height: 200px;} 
- .hero-div-1-h1{color:var(--white);font-size: 12px;}
- .hero-div-1{display: flex;display: flex;flex-direction: column;padding-left: 6em;flex-wrap: wrap;margin-top: 2em;}
+.hero-img1{width: 40rem;}
+.hero-h1{color:var(--white);font-size: 40px;line-height: 80px;margin-top: 50px;}
+@media screen and (width<1110px) {
+ 
+  .hero-img1{width: 30rem;}
+  .hero-h1{color:var(--white);font-size: 30px;line-height: 80px;}
   
+}
+@media screen and (width<850px) {
+ 
+  .hero-img1{width: 14rem;}
+  .hero-h1{color:var(--white);font-size: 16px;line-height: 30px;margin-top: 20px;}
+ .a-tag{font-size: 14px;}
 }
