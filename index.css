@@ -148,7 +148,7 @@ font-family: roboto;}
 
 }
 @media screen and (height<500px) {
-  .article1-container{padding: 10px;}
+  .article1-container{padding: 10px;padding-left:15px ;}
  
 
 }
