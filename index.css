@@ -54,7 +54,7 @@ nav {
   font-family: roboto;
   color: var(--white);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .a-tag:hover {
@@ -136,7 +136,7 @@ font-family: roboto;}
 
 
 /* article2 */
-.article2-container{padding-left: 100px;padding-right: 100px;padding-top: 50px;}
+.article2-container{padding-left: 100px;padding-right: 100px;}
 .article2-container-flex{display: flex;align-items: top;justify-content:center;}
 .article2-img{width: 500px;height:600px;}
 .article2-p{width: 400px;color: #6A6A6A;}
