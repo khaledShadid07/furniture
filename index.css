@@ -131,9 +131,22 @@ font-family: roboto;}
 
 .card-img1{width: 250px;}
 .card-p{text-align: center;font-weight: 700;}
-.article1-p{width: 200px;font-family: roboto;}
+.article1-p{width: 200px;font-family: roboto;color: #6A6A6A;;}
 /* article1 */
 
+
+/* article2 */
+.article2-container{padding: 100px;}
+.article2-container-flex{display: flex;align-items: top;justify-content:center;}
+.article2-img{width: 500px;height:600px;}
+.article2-p{width: 400px;color: #6A6A6A;}
+.article2-grid-1-p1{font-weight: 700;font-size: 16px;padding: 5px;}
+.article2-grid-1-p2{font-weight: 400;font-size: 16px;color:#6A6A6A ;width: 200px;}
+.article2-grid{display: grid; grid-template-columns: 1fr 1fr;column-gap: 20px;}
+
+/* article2 */
+
+/* RESPONSIVE */
 @media screen and (width<1300px) {
   .hero-container{column-gap: 0px;}
   .article1-container{column-gap: 12px;padding-left:10px;padding-right: 10px;}
@@ -145,20 +158,29 @@ font-family: roboto;}
 .card-p{text-align: center;font-weight: 700;font-size: 12px;}
 .article1-p{width: 120px;font-family: roboto;font-size: 12px;}
 
+.article2-container-left-h1{font-size: 20px;}
+.article2-p{width: 250px;}
+.article2-grid-1-p1{font-size: 13px;width:150px}
+.article2-grid-1-p2{font-weight: 400;font-size: 16px;color:#6A6A6A ;width: 130px;}
+.article2-img{width: 400px;height: 500px;}
 
-}
+} 
+
 @media screen and (height<500px) {
   .article1-container{padding: 10px;padding-left:15px ;}
- 
 
 }
-
 
 
 @media screen and (width<950px) {
   .hero-img {width: 350px; }
 
   .hero-h1 {font-size: 25px;}
+.article2-container-left-h1{font-size: 12px;}
+.article2-p{width: 250px;font-size: 12px;}
+.article2-grid-1-p1{font-size: 10px;width:150px}
+.article2-grid-1-p2{font-weight: 400;font-size: 10px;color:#6A6A6A ;width: 130px;}
+.article2-img{width: 200px;height: 350px;}
 
 
 }
@@ -183,4 +205,11 @@ padding-left: 12px;padding-right: 12px;font-size: 11px;}
 padding-left: 12px;padding-right: 12px;border:solid black 1px;font-size: 11px;}
 
 .hero-h1{font-size:10px;}
+
+.article2-container-left-h1{font-size: 10px;}
+.article2-p{width: 150px;font-size: 10px;}
+.article2-grid-1-p1{font-size: 8px;width:100px}
+.article2-grid-1-p2{font-weight: 400;font-size: 8px;color:#6A6A6A ;width: 60px;}
+.article2-img{width: 130px;height: 400px;}
+
 }
