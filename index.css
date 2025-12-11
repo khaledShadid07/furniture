@@ -164,7 +164,7 @@ font-family: roboto;}
 }
 
 @media screen and (width<650px) {
-  .hero-img {  width: 240px;}
+  .hero-img {  width: 220px;}
 
   .hero-h1 {color: var(--white);font-weight: 700;font-size: 12px;}
   .a-tag {  font-size: 11px;}
@@ -172,7 +172,7 @@ font-family: roboto;}
   .article1-container{column-gap: 8px;padding-top:30px;padding-left:10px;padding-right: 10px;}
 .article1-left{}
 .article1-right{display: flex;align-items: center;justify-content: center;column-gap: 10px;flex-grow: 1;}
-.article1-h1{font-size:14px;}
+.article1-h1{font-size:14px;font-weight: 700;}
 
 .card-img1{width: 65px;}
 .card-p{text-align: center;font-weight: 700;font-size: 12px;width: 60px;}
