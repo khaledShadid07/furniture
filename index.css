@@ -136,26 +136,6 @@ font-family: roboto;}
 
 @media screen and (width<1300px) {
   .hero-container{column-gap: 0px;}
-  .article1-container{column-gap: 10px;padding-left:10px;padding-right: 10px;}
-.article1-left{}
-.article1-right{display: flex;align-items: center;justify-content: center;column-gap: 10px;flex-grow: 1;}
-.article1-h1{font-size:18px;}
-
-.card-img1{width: 180px;}
-.card-p{text-align: center;font-weight: 700;}
-.article1-p{width: 200px;font-family: roboto;}
-
-
-}
-@media screen and (height<500px) {
-  .article1-container{padding: 10px;}
- 
-
-}
-
-
-@media screen and (width<800px) {
- .hero-container{column-gap: 0px;}
   .article1-container{column-gap: 12px;padding-left:10px;padding-right: 10px;}
 .article1-left{}
 .article1-right{display: flex;align-items: center;justify-content: center;column-gap: 10px;flex-grow: 1;}
@@ -166,12 +146,29 @@ font-family: roboto;}
 .article1-p{width: 120px;font-family: roboto;font-size: 12px;}
 
 
+}
+@media screen and (height<500px) {
+  .article1-container{padding: 10px;}
+ 
+
+}
+
+
+
+@media screen and (width<950px) {
+  .hero-img {width: 350px; }
+
+  .hero-h1 {font-size: 25px;}
 
 
 }
 
-@media screen and (width<500px) {
-  .hero-container{column-gap: 0px;}
+@media screen and (width<650px) {
+  .hero-img {  width: 240px;}
+
+  .hero-h1 {color: var(--white);font-weight: 700;font-size: 12px;}
+  .a-tag {  font-size: 11px;}
+.hero-container{column-gap: 0px;}
   .article1-container{column-gap: 8px;padding-top:30px;padding-left:10px;padding-right: 10px;}
 .article1-left{}
 .article1-right{display: flex;align-items: center;justify-content: center;column-gap: 10px;flex-grow: 1;}
@@ -186,20 +183,4 @@ padding-left: 12px;padding-right: 12px;font-size: 11px;}
 padding-left: 12px;padding-right: 12px;border:solid black 1px;font-size: 11px;}
 
 .hero-h1{font-size:10px;}
-
-}
-@media screen and (width<950px) {
-  .hero-img {width: 350px; }
-
-  .hero-h1 {font-size: 25px;}
-
-
-}
-
-@media screen and (width<650px) {
-  .hero-img {  width: 240px;}
-
-  .hero-h1 {color: var(--white);font-weight: 700;font-size: 12px;}
-  .a-tag {  font-size: 11px;}
-
 }
